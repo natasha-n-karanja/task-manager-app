@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: sans-serif; padding: 1rem; }
+.container { max-width: 600px; margin: auto; }
+#task-list { list-style: none; padding: 0; }
+#task-list li { display: flex; justify-content: space-between; padding: 0.5rem; border-bottom: 1px solid #ddd; }
+@media (max-width: 600px) {
+  .container { padding: 0.5rem; }
+}
